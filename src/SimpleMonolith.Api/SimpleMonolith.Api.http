@@ -1,0 +1,6 @@
+@SimpleMonolith.Api_HostAddress = http://localhost:5211
+
+GET {{SimpleMonolith.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

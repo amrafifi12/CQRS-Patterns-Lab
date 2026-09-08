@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{04A4AEE1-074C-4496-9372-810BF1B673D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMonolith.Api", "src\SimpleMonolith.Api\SimpleMonolith.Api.csproj", "{663A4C55-B22C-4CF2-BC63-9ED21E33F9BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSeparateDb.Api", "src\02-MonolithSeparateDB\SimpleSeparateDb.Api.csproj", "{45A8CC5A-5D94-4790-B53D-F0FEAFD7B787}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{663A4C55-B22C-4CF2-BC63-9ED21E33F9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663A4C55-B22C-4CF2-BC63-9ED21E33F9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663A4C55-B22C-4CF2-BC63-9ED21E33F9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663A4C55-B22C-4CF2-BC63-9ED21E33F9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A8CC5A-5D94-4790-B53D-F0FEAFD7B787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A8CC5A-5D94-4790-B53D-F0FEAFD7B787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A8CC5A-5D94-4790-B53D-F0FEAFD7B787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A8CC5A-5D94-4790-B53D-F0FEAFD7B787}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{663A4C55-B22C-4CF2-BC63-9ED21E33F9BE} = {04A4AEE1-074C-4496-9372-810BF1B673D1}
+		{45A8CC5A-5D94-4790-B53D-F0FEAFD7B787} = {04A4AEE1-074C-4496-9372-810BF1B673D1}
+	EndGlobalSection
+EndGlobal

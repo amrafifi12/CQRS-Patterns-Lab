@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "p2AOhIGNaInThAA64+TLfX6QEtmI7FBQwOqUEUOOaco=",
+  "Source": "SimpleMonolith.Api",
+  "BasePath": "_content/SimpleMonolith.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
