@@ -1,4 +1,3 @@
-# CQRS-Patterns-Lab
 # CQRS Patterns Lab
 
 A practical .NET 8 project demonstrating different CQRS architectures, from a simple monolith to distributed microservices.
